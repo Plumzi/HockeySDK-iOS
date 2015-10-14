@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.author            = { 'Andreas Linde' => 'mail@andreaslinde.de', 'Thomas Dohmke' => "thomas@dohmke.de" }
   s.source            = { :git => 'https://github.com/bitstadium/HockeySDK-iOS.git', :tag => s.version.to_s }
 
-  s.platform          = :ios, '7.0'
+  s.platforms         = { :ios => '7.0', :tvos => '9.0' }
   s.ios.deployment_target = '6.0'
   s.source_files      = 'Classes'
   s.requires_arc      = true

@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.license           = { :type => 'MIT', :file => 'HockeySDK-iOS/LICENSE' }
   s.author            = { 'Andreas Linde' => 'mail@andreaslinde.de', 'Thomas Dohmke' => "thomas@dohmke.de" }
 
-  s.platform          = :ios, '7.0'
+  s.platforms         = { :ios => '7.0', :tvos => '9.0' }
   s.ios.deployment_target = '6.0'
   s.requires_arc      = true
   
